@@ -1,0 +1,97 @@
+@font-face {
+font-family: 'Fira Sans';
+src: url('/fonts/fira-sans/FiraSans-Regular.ttf');
+}
+
+@font-face {
+font-family: 'Fira Sans';
+font-style: italic;
+src: url('/fonts/fira-sans/FiraSans-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  src: url('/fonts/fira-sans/FiraSans-SemiBold.ttf');
+  }
+  
+  @font-face {
+  font-family: 'Fira Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-stretch: normal;
+  src: url('/fonts/fira-sans/FiraSans-SemiBoldItalic.ttf');
+  }
+
+  @font-face {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-stretch: normal;
+    src: url('/fonts/fira-sans/FiraSans-Medium.ttf');
+    }
+    
+    @font-face {
+    font-family: 'Fira Sans';
+    font-style: italic;
+    font-weight: 500;
+    font-stretch: normal;
+    src: url('/fonts/fira-sans/FiraSans-MediumItalic.ttf');
+    }
+
+@font-face {
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+src: url('/fonts/fira-sans/FiraSans-Bold.ttf');
+}
+
+@font-face {
+font-family: 'Fira Sans';
+font-style: italic;
+font-weight: bold;
+font-stretch: normal;
+src: url('/fonts/fira-sans/FiraSans-BoldItalic.ttf');
+}
+
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-weight:lighter;
+  src: url('/fonts/fira-sans/FiraSans-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Charter';
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  src: url('/fonts/charter/charter-regular.ttf');
+}
+
+@font-face {
+font-family: 'Charter';
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+src: url('/fonts/charter/charter-italic.ttf');
+}
+
+@font-face {
+font-family: 'Charter';
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+src: url('/fonts/charter/charter-bold.ttf');
+}
+
+@font-face {
+font-family: 'Charter';
+font-style: italic;
+font-weight: bold;
+font-stretch: normal;
+src: url('/fonts/charter/charter-bold-italic.ttf');
+}

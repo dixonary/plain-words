@@ -13,11 +13,26 @@
 </head>
 
 <body>
+  <p class="preamble">
+    <a class="book-name" href="/">Plain Words</a>
+    <span class="byline">by Sir Ernest Gower</span>
+  </p>
 $if(title)$
 <header id="title-block-header">
 <h1 class="title">$title$</h1>
 </header>
 $endif$
+<content>
 $body$
+</content>
 </body>
+<footer>
+  <div class="footer-column">
+    <a href="/">Plain Words</a>
+    <a href="https://github.com/dixonary/plain-words">GitHub</a>
+  </div>
+  <div class="footer-column">
+    <a href="/licenses">Font Licenses</a>
+  </div>
+</footer>
 </html>

@@ -1,0 +1,215 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+:root {
+  font-family: 'Charter', serif;
+  font-size:16pt;
+}
+div {
+  box-sizing: border-box;
+}
+
+html {
+  height:100vh;
+  overflow-y:scroll;
+}
+body {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+content {
+  flex:1;
+}
+
+.preamble {
+  display:flex;
+  border-bottom: 0.05em solid black;
+  padding:0.5rem;
+  justify-content: flex-end;
+
+  font-family: 'Fira Sans', sans-serif;
+  font-weight:bold;
+
+}
+
+.preamble .book-name {
+  margin-right:0.25rem;
+  text-transform: uppercase;
+}
+.preamble .byline {
+  font-weight:normal;
+}
+
+.title {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight:lighter;
+  font-size: 4rem;
+
+  width:35rem;
+  max-width:100%;
+
+  display:block;
+  margin:auto;
+  margin-top:3rem;
+}
+
+/* BODY TEXT */
+
+content {
+  display:block;
+  width:35rem;
+  max-width:100%;
+
+  margin:auto;
+  margin-top:4rem;
+  margin-bottom:8rem;
+
+  line-height:1.4;
+
+}
+
+content>* {
+  margin-bottom:1.5rem;
+}
+
+
+content li>* {
+  margin-bottom:1.5rem;
+}
+
+a {
+  color:rgb(30, 131, 232);
+  text-decoration: none;
+}
+a:hover {
+  color:rgb(116, 179, 242);
+}
+
+h2 {
+  font-weight:bold;
+  font-size:1.1em;
+}
+
+h4 {
+  font-weight:bold;
+  font-variant: small-caps;
+  font-size:1.2em;
+}
+
+em     { font-style:italic; }
+strong { font-weight:bold; }
+sup    { vertical-align: super; font-size:0.7em;}
+
+blockquote {
+  margin-left:2rem;
+  border-left:0.25rem solid #ddd;
+  padding-left:1rem;
+}
+blockquote>*+* {
+  margin-top:1rem;
+}
+blockquote p:nth-last-child(2) {
+  margin-bottom:0;
+}
+blockquote .attrib {
+  margin-top:0;
+  color:#666;
+  text-align:right;
+}
+blockquote .attrib::before {
+  content:'—';
+}
+blockquote blockquote {
+  font-size:0.9em;
+  color:#666;
+}
+
+/* CODE BLOCKS */
+
+content code {
+  display:block;
+  width:100%;
+  white-space:pre-wrap;
+  font-family:monospace;
+  background-color:#eee;
+  color:#666;
+  padding:0.5rem;
+  box-sizing:border-box;
+}
+
+/* TABLES */
+
+th {
+  font-weight: bold;
+  font-variant:small-caps;
+  padding-right:0.5rem;
+  padding-bottom:1rem;
+}
+td {
+  padding:1rem;
+}
+td:first-child, th:first-child {
+  border-right: 2px solid #ddd;
+}
+td:nth-child(2), th:nth-child(2) {
+  padding-left:0.5rem;
+}
+
+/* FOOTNOTES */
+
+section.footnotes::before {
+  content: 'FOOTNOTES';
+  font-size:0.9em;
+  color:#666;
+  
+  position:relative;
+  top:0.5em;
+}
+
+section.footnotes {
+  margin-top:4rem;
+}
+
+section.footnotes hr {
+  margin-bottom:1.5rem;
+}
+
+section.footnotes ol {
+  list-style: inside decimal;
+}
+section.footnotes ol p:first-child {
+  display:inline;
+}
+
+section.footnotes li+li {
+  margin-top:2rem;
+}
+
+section.footnotes li>*+* {
+  margin-top:1.5em;
+}
+
+/* FOOTER */
+
+footer {
+  display: block;
+  background-color:#eee;
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+  padding:2em 0;
+  min-height:4rem;
+}
+
+footer .footer-column {
+  width:40%;
+  display:flex;
+  flex-direction:column;
+}
+footer .footer-column *+a {
+  margin-top:1em;
+}
+
+footer a       { color:#666; }
+footer a:hover { color:#aaa; }

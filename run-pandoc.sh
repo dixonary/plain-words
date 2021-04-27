@@ -16,7 +16,7 @@ for f in raw/**/*.md; do
     file_basename=$(basename "$f" .md)
     file_root=${file_rel%.md}
     mkdir -p "docs/$file_root"
-    pandoc -f gfm -t html5 --template=pandoc-template.html "raw/$file_root.md" -o "docs/$file_root/index.html"
+    pandoc -f gfm+footnotes+fancy_lists -t html5 --template=pandoc-template.html "raw/$file_root.md" -o "docs/$file_root/index.html"
   fi
 
 done
