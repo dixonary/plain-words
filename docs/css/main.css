@@ -5,7 +5,7 @@
   font-family: 'Charter', serif;
   font-size:16pt;
 }
-div {
+* {
   box-sizing: border-box;
 }
 
@@ -52,6 +52,9 @@ content {
   display:block;
   margin:auto;
   margin-top:3rem;
+
+  padding-left: 1rem;
+  padding-right:1rem;
 }
 
 /* BODY TEXT */
@@ -66,6 +69,9 @@ content {
   margin-bottom:8rem;
 
   line-height:1.4;
+
+  padding-left: 1rem;
+  padding-right:1rem;
 
 }
 
@@ -100,6 +106,12 @@ h4 {
 em     { font-style:italic; }
 strong { font-weight:bold; }
 sup    { vertical-align: super; font-size:0.7em;}
+
+.bottom-nav { 
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 blockquote {
   margin-left:2rem;
