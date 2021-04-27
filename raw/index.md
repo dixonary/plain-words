@@ -3,6 +3,12 @@ title: "The Complete<br>Plain Words"
 hide_title_suffix: yes
 ---
 
+This is a copy of the book *The Complete Plain Words* as authored by Sir Ernest Gowers.
+
+The book serves as a style guide and a guide to writing simple, "proper" English. Originally written at the behest of the Treasury, *The Complete Plain Words* has been in print since its original publication in 1954.
+
+This work is in the public domain as of 2016.
+
 ## Table of Contents 
 
 [Preface](/preface)
